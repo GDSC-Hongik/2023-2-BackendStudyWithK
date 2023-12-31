@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Main {
+public class 15649 {
     public static void DFS(BufferedWriter bw, int curr, int cnt, int[] arr, int N, int[] order) throws IOException{
         if(curr == 6){
             for(int i = 0 ; i < 6 ; i ++){
