@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="container">
+
+    <h1>POST 로 받기</h1>
+    <form action="/write-something" method="post">
+        <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+        </div>
+        <button type="submit">등록</button>
+    </form>
+
+</div> <!-- /container -->
+
+<!--<p th:text="${place}">현재는 빈칸입니다.</p>-->
+
+</body>
+</html>
