@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<body>
+
+<div class="container">
+    <div>
+        <h1>Hello Spring</h1>
+        <p>
+            <a href="/page-by-get">GET</a> <!--get -> by-get?content=~~~~ -->
+            <a href="/page-by-post">POST</a>
+        </p>
+    </div>
+</div> <!-- /container -->
+
+<p th:text="${place}">빈칸임</p>
+</body>
+</html>
