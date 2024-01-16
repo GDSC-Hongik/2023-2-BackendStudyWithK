@@ -1,0 +1,92 @@
+/*
+폰트 설정
+*/
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'S-CoreDream-3Light';
+    background : white;
+}
+/*body {*/
+/*    padding: 2em;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    position: center;*/
+/*    font-size: 14px;*/
+/*}*/
+.login-wrapper {
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.login-wrapper > h2{
+    font-size: 24px;
+    text-align: center;
+    color: #7743DB;
+    margin-bottom: 20px;
+}
+#login-form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+#login-form > input::placeholder{
+    color: #D2D2D2;
+}
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #7743DB;
+    /*margin-top: 20px;*/
+    margin-left:120px;
+    width: 80px;
+    height:45px;
+    border: none;
+    text-align: center;
+    position: absolute;
+}
+#login-form > input[type="submit"]:hover{
+    background-color: #FFE9B1;
+    color: #3B3486;
+}
+
+#login-form > input[type="checkbox"]{
+    display: none;
+}
+#login-form > label{
+    color: #999999;
+}
+#login-form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.links{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3B3486;
+}
+a{
+    text-decoration: none;
+}
+.check{
+    color : #FFE9B1;
+}
+
+
+
