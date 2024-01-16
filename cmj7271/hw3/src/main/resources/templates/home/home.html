@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    <link rel="stylesheet" href="home.css">-->
+    <meta charset="UTF-8">
+    <title>LoginSystem</title>
+</head>
+<body>
+<h1>환영합니다~</h1>
+
+<form name="login" action="/members/login" method="post">
+    <div class="login">
+        <input type="text" id="id" name="id" placeholder="ID을 입력하세요"><br>
+        <input type="text" id="pw" name="pw" placeholder="PW을 입력하세요">
+        <button type="submit" id="login" name="login">Login</button>
+    </div>
+</form>
+
+<form name="signUp" action="/members/sign-up" method="post">
+    <button type="submit" id="signUp" name="signUp">SignUp</button>
+</form>
+
+</body>
+</html>

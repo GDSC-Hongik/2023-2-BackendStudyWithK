@@ -1,0 +1,39 @@
+.signUp {
+    width: 226px;
+    height: 46px;
+    flex-shrink: 0;
+    background: #25B87A;
+    border: 21px;
+}
+
+#id {
+    margin-top: 120px;
+    margin-left: 25px;
+}
+
+#pw {
+    margin-top: 187px;
+    margin-left: 25px;
+}
+
+#login {
+    width: 113px;
+    height: 113px;
+    flex-shrink: 0;
+
+    margin-top: 120px;
+    margin-left: 282px;
+
+    background: #FFF384;
+}
+
+#signUp {
+    width: 370px;
+    height: 42px;
+    flex-shrink: 0;
+
+    margin-top: 253px;
+    margin-left: 25px;
+
+    background: #96BDF7;
+}
